@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2ETestSuite" parallel="tests" thread-count="1" >
+<listeners>
+      <listener class-name="org.testng.reporters.EmailableReporter2"/>
+      <listener class-name="org.testng.reporters.XMLReporter"/>
+ </listeners>
+   <test name="LM1">
+   	 <parameter name="applicationNameFromTestNG"  value="LM1"/>
+    <classes>
+      <class name="com.oracle.hpcm.wstests.EngineAutoFixture">
+      </class>
+     </classes>
+   </test>
+      <test name="LM2">
+   	 <parameter name="applicationNameFromTestNG"  value="LM2"/>
+    <classes>
+      <class name="com.oracle.hpcm.wstests.EngineAutoFixture">
+      </class>
+     </classes>
+   </test>
+      <test name="LM3">
+   	 <parameter name="applicationNameFromTestNG"  value="LM3"/>
+    <classes>
+      <class name="com.oracle.hpcm.wstests.EngineAutoFixture">
+      </class>
+     </classes>
+   </test>
+
+      <test name="LM4">
+   	 <parameter name="applicationNameFromTestNG"  value="LM4"/>
+    <classes>
+      <class name="com.oracle.hpcm.wstests.EngineAutoFixture">
+      </class>
+     </classes>
+   </test>
+         <test name="LM5">
+   	 <parameter name="applicationNameFromTestNG"  value="LM5"/>
+    <classes>
+      <class name="com.oracle.hpcm.wstests.EngineAutoFixture">
+      </class>
+     </classes>
+   </test>
+            <test name="LMA">
+   	 <parameter name="applicationNameFromTestNG"  value="LMA"/>
+    <classes>
+      <class name="com.oracle.hpcm.wstests.EngineAutoFixture">
+      </class>
+     </classes>
+   </test>
+     <test name="BML12">
+   	 <parameter name="applicationNameFromTestNG"  value="BML12"/>
+    <classes>
+      <class name="com.oracle.hpcm.wstests.EngineAutoFixture">
+      </class>
+     </classes>
+   </test>
+</suite>

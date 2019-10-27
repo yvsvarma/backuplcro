@@ -1,0 +1,7 @@
+"2013" "January" "Actual" "A11" "B11" "C11" "D11" "E11" "F11" "G11" "Input" "NoRule" 10000
+"2013" "January" "Actual" "A12" "B11" "C11" "D11" "E11" "F11" "G11" "Input" "NoRule" 5000
+"2013" "January" "Actual" "A12" "B11" "C11" "D13" "E11" "F11" "G11" "Input" "NoRule" 6
+"2013" "January" "Actual" "A12" "B12" "C11" "D13" "E11" "F11" "G11" "Input" "NoRule" 2
+"2013" "January" "Actual" "A12" "B13" "C11" "D13" "E11" "F11" "G11" "Input" "NoRule" 2
+"2013" "January" "Actual" "A11" "B11" "C11" "D13" "E11" "F11" "G11" "Input" "NoRule" 5
+"2013" "January" "Actual" "A11" "B12" "C11" "D13" "E11" "F11" "G11" "Input" "NoRule" 5

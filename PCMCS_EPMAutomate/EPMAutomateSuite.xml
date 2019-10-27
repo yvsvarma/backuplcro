@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" >
+<listeners>
+      <listener class-name="org.testng.reporters.EmailableReporter2"/>
+      <listener class-name="org.testng.reporters.XMLReporter"/>
+ </listeners>
+   <test name="EPMAutomate">
+    <classes>
+      <class name="tests.EPMAutomateTestSuite"/>
+     </classes>
+   </test>
+      <test name="EPMAutomateE2E">
+    <classes>
+      <class name="tests.DemoE2EModelEPMAutomate"/>
+     </classes>
+   </test>
+</suite>

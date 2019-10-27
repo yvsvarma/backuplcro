@@ -1,0 +1,4 @@
+Key Performance Indicator;MyKPI;Enabled;Dimension Account has invalid member INC1000.
+Scatter Analysis;MyScatterAnalysis;Enabled;Dimension Account has invalid member INC1000.
+Profit Curve;MyProfitCurve;Enabled;Dimension Account has invalid member INC1000.
+Analysis View;MyAV;Enabled;Dimension Account has invalid member INC1000.

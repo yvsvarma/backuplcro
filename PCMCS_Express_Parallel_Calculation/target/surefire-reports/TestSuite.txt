@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.01 sec <<< FAILURE! - in TestSuite
+testLCMImport(com.oracle.hpcm.tests.EngineAutomationTestFixture)  Time elapsed: 3.382 sec  <<< FAILURE!
+java.lang.AssertionError: LCM Import failed. Error: null
+Processing...
+Retrieving status...
+EPMAT-1:Command failed to execute.
+
+Details: 
+
+----------------------------------------------------------
+Source: /BksML30/HPCM-BksML30
+Destination: BksML30
+----------------------------------------------------------
+14000: Error reported from HPCM.
+Application not found.Application does not exist: BksML30. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.oracle.hpcm.tests.EngineAutomationTestFixture.testLCMImport(EngineAutomationTestFixture.java:135)
+

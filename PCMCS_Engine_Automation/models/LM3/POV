@@ -1,0 +1,6 @@
+{
+"POVDimensionCount":3,
+"POVArray":[
+ { "id": 1, "POV" : "2013:January:Actual" ,"Rules":"NoRule:Rule:R0001:R0002:R0003:R0004:R0005:R0006:R0007" } 
+ ]
+ }

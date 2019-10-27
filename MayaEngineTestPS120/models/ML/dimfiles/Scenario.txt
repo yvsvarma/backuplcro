@@ -1,0 +1,6 @@
+POV3,STORAGE TYPE,HIERARCHY TYPE,COMMENT,ASO DATA STORAGE,BSO DATA STORAGE,TWO PASS CALCULATION,ASO DIMENSION FORMULA,BSO DIMENSION FORMULA,CONSOLIDATION TYPE,UDA,PARENT,ALIAS:Default,ALIAS:English
+Scenario,SPARSE,STORED,,STOREDATA,LABELONLY,N,,,,,,ALIAS:Default,ALIAS:English
+Actual,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+Budget,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+What If 1,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+What If 2,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,

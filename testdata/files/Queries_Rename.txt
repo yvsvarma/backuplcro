@@ -1,0 +1,1 @@
+MyQuery;Dimension Account has invalid member [NetIncome].[Income From Operations].[Gross Profit].[Net Revenue].[INC1000].

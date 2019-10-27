@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ExpressCalculations-InParallel]">
+  <parameter name="applicationNameFromTestNG" value="EPBML30"/>
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    <listener class-name="org.testng.reporters.XMLReporter"/>
+  </listeners>
+  <test name="Parallel-Calc">
+    <parameter name="applicationNameFromTestNG" value="EPBML30"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture"/>
+    </classes>
+  </test> <!-- Parallel-Calc -->
+  <test name="Parallel-Calc(failed)">
+    <parameter name="applicationNameFromTestNG" value="EPBML30"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="testLCMImport"/>
+        </methods>
+      </class> <!-- com.oracle.hpcm.tests.EngineAutomationTestFixture -->
+    </classes>
+  </test> <!-- Parallel-Calc(failed) -->
+</suite> <!-- Failed suite [ExpressCalculations-InParallel] -->

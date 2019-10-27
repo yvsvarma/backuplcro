@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DGTesting]">
+  <parameter name="password" value="test@123"/>
+  <parameter name="user" value="GROUPUSER"/>
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    <listener class-name="org.testng.reporters.XMLReporter"/>
+  </listeners>
+  <test name="Pre-setup with Admin user">
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+        <methods>
+          <include name="deleteExistingApp"/>
+          <include name="login"/>
+          <include name="lcmImport"/>
+        </methods>
+      </class> <!-- com.oracle.hpcm.tests.EngineAutomationTestFixture -->
+    </classes>
+  </test> <!-- Pre-setup with Admin user -->
+  <test name="Check PCMCSUSER Access">
+    <parameter name="password" value="test@123"/>
+    <parameter name="user" value="PCMCSUSER"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+        <methods>
+          <include name="checkReadAccess"/>
+          <include name="attemptDataLoad"/>
+          <include name="checkWriteAccess"/>
+        </methods>
+      </class> <!-- com.oracle.hpcm.tests.EngineAutomationTestFixture -->
+    </classes>
+  </test> <!-- Check PCMCSUSER Access -->
+  <test name="Check DGVIEWER Access">
+    <parameter name="password" value="test@123"/>
+    <parameter name="user" value="DGVIEWER"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+        <methods>
+          <include name="checkReadAccess"/>
+          <include name="attemptDataLoad"/>
+          <include name="checkWriteAccess"/>
+        </methods>
+      </class> <!-- com.oracle.hpcm.tests.EngineAutomationTestFixture -->
+    </classes>
+  </test> <!-- Check DGVIEWER Access -->
+  <test name="Check GROUPUSER Access">
+    <parameter name="password" value="test@123"/>
+    <parameter name="user" value="GROUPUSER"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+        <methods>
+          <include name="checkReadAccess"/>
+          <include name="attemptDataLoad"/>
+          <include name="checkWriteAccess"/>
+        </methods>
+      </class> <!-- com.oracle.hpcm.tests.EngineAutomationTestFixture -->
+    </classes>
+  </test> <!-- Check GROUPUSER Access -->
+</suite> <!-- Failed suite [DGTesting] -->

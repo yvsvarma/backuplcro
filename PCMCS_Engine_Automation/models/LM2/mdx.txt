@@ -1,0 +1,19 @@
+SELECT 
+{[Balance],[Input],[Allocation In],[Allocation Out],[Allocation Offset Amount]} on COLUMNS,
+NON EMPTY
+crossjoin({[%POV1%]},
+crossjoin({[%POV2%]},
+crossjoin({[%POV3%]},
+crossjoin(Descendants([Rule],10,LEAVES), 
+crossjoin(Descendants([A],10,LEAVES),
+crossjoin(Descendants([B],10,LEAVES),
+crossjoin(Descendants([C],10,LEAVES),Descendants([D],10,LEAVES)
+)
+)
+)
+)
+)
+)
+)
+ON ROWS
+from [%APP%].[%CUBE%]

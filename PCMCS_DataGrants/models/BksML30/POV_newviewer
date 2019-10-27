@@ -1,0 +1,12 @@
+{
+"POVDimensionCount":3,
+"POVArray":[
+ { "id": 1, "dataPOV" : "2016_January_Actual" ,"dgName":"","DG1" : "TC1:DGVIEWER: DG1: 2016 Jan - " },
+ { "id": 2, "dataPOV" : "2016_February_Actual" ,"dgName":"","DG2" : "TC2:DGVIEWER: DG2: 2016 Feb -" } ,
+ { "id": 3, "dataPOV" : "2016_March_Actual" ,"dgName":"","DG3" : "TC3:DGVIEWER: DG3: 2016 Mar -" } ,
+ { "id": 4, "dataPOV" : "2016_April_Actual" ,"dgName":"","DG4" : "TC4:DGVIEWER: DG4: 2016 Apr -" } ,
+ { "id": 5, "dataPOV" : "2016_May_Actual" ,"dgName":"","DG5" : "TC5:DGVIEWER: DG5: 2016 May -"} ,
+ { "id": 6, "dataPOV" : "2016_June_Actual" ,"dgName":"","DG6" : "TC6:DGVIEWER: DG6: 2016 Jun -"} 
+
+ ]
+ }

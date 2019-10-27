@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionTestingSuite" time-out="7200000" parallel="tests" thread-count="4">
+<listeners>
+      <!--listener class-name="org.uncommons.reportng.HTMLReporter"/-->
+      <!--listener class-name="org.uncommons.reportng.JUnitXMLReporter"/-->
+      <listener class-name="org.testng.reporters.EmailableReporter2"/>
+      <listener class-name="org.testng.reporters.XMLReporter"/>
+ </listeners>
+ 
+     <test name="KPITest">
+    <classes>
+      <class name="tests.KPITestSuite"/>
+     </classes>
+   </test>
+   <test name="Dashboard">
+    <classes>
+      <class name="tests.DashboardTestSuite"/>
+     </classes>
+   </test>
+  <test name="PCTest">
+    <classes>
+      <class name="tests.ProfitCurvesSuite"/>
+     </classes>
+   </test>
+     <test name="ScatterTest">
+    <classes>
+      <class name="tests.ScatterGraphTestSuite"/>
+     </classes>
+   </test>
+        <test name="MVTest">
+    <classes>
+      <class name="tests.ModelViewTestSuite"/>
+     </classes>
+   </test>
+
+   <test name="FRTest">
+    <classes>
+      <class name="tests.FRTestSuite"/>
+     </classes>
+   </test>
+     <test name="MQtest">
+    <classes>
+      <class name="tests.ManageQueriesTestSuite"/>
+     </classes>
+   </test>
+   <test name="POVTest">
+    <classes>
+      <class name="tests.POVManagerTestSuite"/>
+     </classes>
+   </test>
+   <test name="RulesTest">
+    <classes>
+      <class name="tests.ManageRulesTestSuite"/>
+     </classes>
+   </test>
+      <test name="RuleTest">
+    <classes>
+      <class name="tests.ManageRulesTestSuite2"/>
+     </classes>
+   </test>
+      <test name="SystemReports">
+    <classes>
+      <class name="tests.SystemReportsTestSuite"/>
+     </classes>
+   </test>
+   <test name="AVTest">
+    <classes>
+      <class name="tests.AnalysisViewTestSuite"/>
+     </classes>
+   </test>
+</suite>

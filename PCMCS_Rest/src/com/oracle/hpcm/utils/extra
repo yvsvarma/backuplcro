@@ -1,0 +1,11 @@
+            
+            Channel channel = session.openChannel("sftp");
+            ChannelSftp sftpChannel = (ChannelSftp) channel;
+            sftpChannel.connect();
+            sftpChannel.put(new FileInputStream(f), "template.zip");
+            System.out.println("exit-status: "+sftpChannel.getExitStatus());
+            sftpChannel.exit();
+
+            //((ChannelExec)channelExec).setCommand("sudo -u hpcmunix -s");
+            ((ChannelExec)channelExec).setCommand("sudo -S -p  mv template.zip /u01/");
+            System.out.println("exit-status: "+channel.getExitStatus());

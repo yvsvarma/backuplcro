@@ -1,0 +1,223 @@
+Regular,PARENT,STORAGE TYPE,HIERARCHY TYPE,COMMENT,ASO DATA STORAGE,BSO DATA STORAGE,TWO PASS CALCULATION,ASO DIMENSION FORMULA,CONSOLIDATION TYPE,UDA,DIMENSION SOLVE ORDER,DIMENSION SORT ORDER,MEMBER SOLVE ORDER,ALIAS:Default,ALIAS:English
+Account,,SPARSE,DYNAMIC,,STOREDATA,NEVERSHARE,N,,,,0,1,,ALIAS:Default,ALIAS:English
+NetIncome,,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Net Income,Net Income
+Income From Operations,NetIncome,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Income From Operations,Income From Operations
+Gross Profit,Income From Operations,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Gross Profit,Gross Profit
+Net Revenue,Gross Profit,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Net Revenue,Net Revenue
+INC1000,Net Revenue,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Revenue,Revenue
+INC1100,Net Revenue,SPARSE,STORED,,StoreData,NeverShare,N,,-,,,,0,Discounts,Discounts
+Cost of Goods,Gross Profit,SPARSE,STORED,,StoreData,NeverShare,N,,-,,,,0,Cost of Goods,Cost of Goods
+Materials,Cost of Goods,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Materials,Materials
+MAT5100,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Frames,Frames
+MAT5200,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Wheels,Wheels
+MAT5300,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Gearsets,Gearsets
+MAT5400,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Seats,Seats
+MAT5500,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Controls,Controls
+MAT5600,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+Equipment Depreciation,Cost of Goods,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Equipment Depreciation,Equipment Depreciation
+DEP6100,Equipment Depreciation,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Bar Bender Depreciation,Bar Bender Depreciation
+Operating Expenses,Income From Operations,SPARSE,STORED,,StoreData,NeverShare,N,,-,,,,0,Operating Expenses,Operating Expenses
+Personnel Expenses,Operating Expenses,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Personnel Expenses,Personnel Expenses
+PER2400,Personnel Expenses,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Vacation,Vacation
+PER2500,Personnel Expenses,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Benefits,Benefits
+Facilities Expenses,Operating Expenses,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Facilities Expenses,Facilities Expenses
+FAC8100,Facilities Expenses,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Rent,Rent
+FAC8200,Facilities Expenses,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Utilities,Utilities
+Allocations,Operating Expenses,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Allocations,Allocations
+Allocations Sent,Allocations,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Allocations Sent,Allocations Sent
+Allocations Received,Allocations,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Allocations Received,Allocations Received
+Other Exp Inc,NetIncome,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Other Exp Inc,Other Exp Inc
+NoAccount,,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,NoAccount,NoAccount
+Statistics,,SPARSE,STORED,,LabelOnly,NeverShare,N,,~,,,,0,Statistics,Statistics
+Sales Statistics,Statistics,SPARSE,STORED,,LabelOnly,NeverShare,N,,~,,,,0,Sales Statistics,Sales Statistics
+STAT1001,Sales Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Sold Quantity,Sold Quantity
+STAT1002,Sales Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Sales Discounts,Sales Discounts
+Cost Center Statistics,Statistics,SPARSE,STORED,,LabelOnly,NeverShare,N,,~,,,,0,Cost Center Statistics,Cost Center Statistics
+STAT1101,Cost Center Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Occupancy Square Feet,Occupancy Square Feet
+STAT1102,Cost Center Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Headcount,Headcount
+STAT1103,Cost Center Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Desktop Laptop Users,Desktop Laptop Users
+STAT1104,Cost Center Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Hosted Application Users,Hosted Application Users
+STAT1105,Cost Center Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,SLA Weight,SLA Weight
+STAT1106,Cost Center Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Std Work Unit Time,Std Work Unit Time
+STAT1107,Cost Center Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Std Setup Time,Std Setup Time
+STAT1108,Cost Center Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Purchase Orders,Purchase Orders
+STAT1109,Cost Center Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Invoices,Invoices
+Activity Statistics,Statistics,SPARSE,STORED,,LabelOnly,NeverShare,N,,~,,,,0,Activity Statistics,Activity Statistics
+STAT1201,Activity Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Activity Time Split,Activity Time Split
+Production Statistics,Statistics,SPARSE,STORED,,LabelOnly,NeverShare,N,,~,,,,0,Production Statistics,Production Statistics
+STAT1304,Production Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Setup Time,Setup Time
+STAT1305,Production Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Assembly Complexity Factor,Assembly Complexity Factor
+STAT1306,Production Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Fabrication Complexity Factor,Fabrication Complexity Factor
+STAT1307,Production Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Shipping Cube Size,Shipping Cube Size
+STAT1315,Production Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,STAT1315,STAT1315
+Customer Statistics,Statistics,SPARSE,STORED,,LabelOnly,NeverShare,N,,~,,,,0,Customer Statistics,Customer Statistics
+STAT1301,Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Production Quantity,Production Quantity
+STAT1302,Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Production Set Up Quantity,Production Set Up Quantity
+STAT1303,Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Defect Count,Defect Count
+STAT1401,Customer Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Visits-Sales,Visits-Sales
+STAT1402,Customer Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Calls-Sales,Calls-Sales
+STAT1403,Customer Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Calls-Service,Calls-Service
+STAT1404,Customer Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Returns,Returns
+STAT1405,Customer Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Orders,Orders
+Performance Statistics,Statistics,SPARSE,STORED,,LabelOnly,NeverShare,N,,~,,,,0,Performance Statistics,Performance Statistics
+STAT1501,Performance Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Net Income %,Net Income %
+STAT1502,Performance Statistics,SPARSE,STORED,,StoreData,NeverShare,N,,~,,,,0,Gross Profit %,Gross Profit %
+MAT5100,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Controls,Controls
+MAT5101,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5102,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5103,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5104,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5105,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5106,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5107,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5108,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5109,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5110,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5111,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5112,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5113,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5114,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5115,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5116,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5117,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5118,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5119,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5120,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5121,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5122,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5123,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5124,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5125,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5126,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5127,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5128,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5129,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5130,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5131,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5132,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5133,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5134,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5135,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5136,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5137,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5138,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5139,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5140,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5141,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5142,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5143,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5144,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5145,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5146,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5147,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5148,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5149,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5150,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5151,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5152,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5153,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5154,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5155,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5156,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5157,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5158,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5159,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5160,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5161,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5162,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5163,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5164,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5165,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5166,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5167,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5168,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5169,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5170,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5171,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5172,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5173,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5174,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5175,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5176,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5177,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5178,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5179,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5180,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5181,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5182,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5183,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5184,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5185,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5186,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5187,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5188,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5189,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5190,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5191,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5192,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5193,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5194,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5195,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5196,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5197,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5198,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5199,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5200,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5201,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5202,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5203,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5204,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5205,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5206,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5207,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5208,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5209,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5210,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5211,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5212,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5213,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5214,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5215,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5216,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5217,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5218,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5219,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5220,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5221,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5222,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5223,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5224,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5225,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5226,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5227,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5228,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5229,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5230,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5231,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5232,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5233,Materials,SPARSE,STORED,,StoreData,NeverShare,N,,+,,,,0,Tubing,Tubing
+MAT5100,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,Controls,Controls
+MAT5101,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5102,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5103,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5104,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5105,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5106,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5107,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5108,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5109,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5110,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5111,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5112,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5113,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5114,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5115,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5116,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5117,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5118,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5119,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5120,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5121,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5122,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5123,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX
+MAT5124,Production Statistics,SPARSE,,,SHAREDATA,NeverShare,N,,+,,,,0,XXXXXXX,XXXXXXX

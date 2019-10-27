@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2ETestSuite" >
+<listeners>
+      <listener class-name="org.testng.reporters.EmailableReporter2"/>
+      <listener class-name="org.testng.reporters.XMLReporter"/>
+ </listeners>
+   <test name="E2E">
+    <classes>
+      <class name="tests.E2ETestSuite"/>
+     </classes>
+   </test>
+</suite>

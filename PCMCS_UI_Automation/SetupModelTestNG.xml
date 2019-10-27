@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Setup" >
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="org.testng.reporters.EmailableReporter2"/>
+      <listener class-name="org.testng.reporters.XMLReporter"/>
+ </listeners>
+   <test name="Setup">
+    <classes>
+      <class name="tests.SetupModelTestSuite"/>
+     </classes>
+   </test>
+</suite>

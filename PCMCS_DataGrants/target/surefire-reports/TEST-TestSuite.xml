@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="253.471" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="username" value="epm_default_cloud_admin"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="snapShotName" value="BksML30_DTE.zip"/>
+    <property name="user.name" value="vinvarma"/>
+    <property name="testsuite.name" value="DTETestNG.xml"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="server" value="slc05fbp.us.oracle.com"/>
+    <property name="user.language" value="en"/>
+    <property name="staging" value="false"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="classworlds.conf" value="D:\downloads\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="path_to_epmautomate" value="C:\Oracle\EPM Automate\bin"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="version" value="v1"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="comment" value="test"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="port" value="9000"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="D:\downloads\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="user" value="epm_default_cloud_admin"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="user.script" value=""/>
+    <property name="user.home" value="C:\Users\vinvarma.ORADEV"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="library.jansi.path" value="D:\downloads\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;D:\Automation\Selenium\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Automation\gradle-4.8.1-bin\gradle-4.8.1\bin;D:\downloads\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Users\vinvarma.ORADEV\AppData\Local\Programs\Python\Python37-32;C:\Users\vinvarma.ORADEV\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Oracle\EPM Automate\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\WINDOWS\System32\OpenSSH\;C:\Users\vinvarma.ORADEV\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\vinvarma.ORADEV\AppData\Local\Programs\Python\Python37-32\;C:\Users\vinvarma.ORADEV\AppData\Local\Microsoft\WindowsApps;C:\Users\vinvarma.ORADEV\AppData\Local\atom\bin;C:\Users\vinvarma.ORADEV\AppData\Roaming\npm;C:\Users\vinvarma.ORADEV\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\downloads\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\.."/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f pom-both.xml -Dserver=slc05fbp.us.oracle.com -Dpassword=Hyperion1 -Dtestsuite.name=DTETestNG.xml -Dport=9000 -Ddomain=eprcsstage -Dmailto=vinaysimha.varma@oracle.com -Dcomment=test -Dstaging=false -Dtimeout=1000 -DsnapShotName=BksML30_DTE.zip -Dusername=epm_default_cloud_admin -Dport=9000 -Dserver=slc05fbp.us.oracle.com -Ddomain=eprcsstage -Duser=epm_default_cloud_admin -Dversion=v1 -Dtimeout=1000 -Dpath_to_epmautomate=C:\Oracle\EPM Automate\bin -Dstaging=false -Dpassword=Hyperion1 test"/>
+    <property name="java.class.path" value="D:\downloads\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="mailto" value="vinaysimha.varma@oracle.com"/>
+    <property name="timeout" value="1000"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.io.tmpdir" value="C:\Users\VINVAR~1.ORA\AppData\Local\Temp\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\LastMonth\PCMCS_DataGrants"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\LastMonth\PCMCS_DataGrants"/>
+    <property name="password" value="Hyperion1"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="domain" value="eprcsstage"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase name="deleteExistingApp" classname="com.oracle.hpcm.tests.EngineAutomationTestFixture" time="15.568"/>
+  <testcase name="login" classname="com.oracle.hpcm.tests.EngineAutomationTestFixture" time="3.374"/>
+  <testcase name="lcmImport" classname="com.oracle.hpcm.tests.EngineAutomationTestFixture" time="221.018"/>
+  <testcase name="checkReadAccess" classname="com.oracle.hpcm.tests.EngineAutomationTestFixture" time="13.511"/>
+  <testcase name="checkReadAccess" classname="com.oracle.hpcm.tests.EngineAutomationTestFixture" time="13.182"/>
+  <testcase name="checkReadAccess" classname="com.oracle.hpcm.tests.EngineAutomationTestFixture" time="12.265"/>
+</testsuite>

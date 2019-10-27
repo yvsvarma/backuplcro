@@ -1,0 +1,8 @@
+"2014" "January" "Actual" "A11" "B21" "C3" "D11" "G12" "E11" "F11" NoRule "Input" 10000
+"2014" "January" "Actual" "A12" "B11" "C11" "D11" "G11" "E11" "F11" NoRule "Input" 10002
+"2014" "January" "Actual" "A14" "B11" "C11" "D11" "G11" "E11" "F11" NoRule "Input" 10112
+"2014" "January" "Actual" "A13" "B21" "C21" "D21" "G11" "E11" "F11" NoRule "Input" 8
+"2014" "January" "Actual" "A14" "B21" "C21" "D21" "G11" "E11" "F11" NoRule "Input" 10
+"2013" "January" "Actual" "A13" "B11" "C13" "D13" "G11" "E11" "F12" R0004 "CalculatedDriverValue" 14
+"2013" "January" "Actual" "A13" "B11" "C14" "D13" "G11" "E11" "F12" R0004 "CalculatedDriverValue" 4
+

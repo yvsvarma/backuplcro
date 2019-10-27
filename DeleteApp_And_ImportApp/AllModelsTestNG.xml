@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2ETestSuite" >
+<listeners>
+      <listener class-name="org.testng.reporters.EmailableReporter2"/>
+      <listener class-name="org.testng.reporters.XMLReporter"/>
+ </listeners>
+    <test name="Demo">
+   	 <parameter name="applicationNameFromTestNG"  value="Or3ITCC"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+   <test name="LM1">
+   	 <parameter name="applicationNameFromTestNG"  value="LM1"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+      <test name="LM2">
+   	 <parameter name="applicationNameFromTestNG"  value="LM2"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+      <test name="LM3">
+   	 <parameter name="applicationNameFromTestNG"  value="LM3"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+
+      <test name="LM4">
+   	 <parameter name="applicationNameFromTestNG"  value="LM4"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+         <test name="LM5">
+   	 <parameter name="applicationNameFromTestNG"  value="LM5"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+            <test name="LMA">
+   	 <parameter name="applicationNameFromTestNG"  value="LMA"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+     <test name="LM7">
+   	 <parameter name="applicationNameFromTestNG"  value="LM7"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+
+        <test name="LM6">
+   	 <parameter name="applicationNameFromTestNG"  value="LM6"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+       <test name="BksML30">
+   	 <parameter name="applicationNameFromTestNG"  value="Bks30"/>
+    <classes>
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+      </class>
+     </classes>
+   </test>
+</suite>

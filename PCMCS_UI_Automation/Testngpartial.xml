@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionTestingSuite" time-out="7200000" parallel="tests" thread-count="4">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+    </listeners>
+ 
+    <test name="mdb">
+        <classes>
+            <class name="tests.DashboardTestSuite"/>
+        </classes>
+    </test>
+    <!--<test name="FRTest">
+        <classes>
+            <class name="tests.FRTestSuite"/>
+        </classes>
+    </test-->
+</suite>

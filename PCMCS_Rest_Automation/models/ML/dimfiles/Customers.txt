@@ -1,0 +1,13 @@
+Regular,STORAGE TYPE,HIERARCHY TYPE,COMMENT,ASO DATA STORAGE,BSO DATA STORAGE,TWO PASS CALCULATION,ASO DIMENSION FORMULA,BSO DIMENSION FORMULA,CONSOLIDATION TYPE,UDA,PARENT,ALIAS:Default,ALIAS:English
+Customers,SPARSE,STORED,,STOREDATA,LABELONLY,N,,,,,,ALIAS:Default,ALIAS:English
+NoCustomer,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,No Customer,No Customer,
+AllCustomers,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,All Customers,All Customers,
+Big Box,SPARSE,,,StoreData,StoreData,N,,,+,,AllCustomers,,,
+BB100,SPARSE,,,StoreData,StoreData,N,,,+,,Big Box,Q Mart,Q Mart,
+BB200,SPARSE,,,StoreData,StoreData,N,,,+,,Big Box,Bike Depot,Bike Depot,
+BB300,SPARSE,,,StoreData,StoreData,N,,,+,,Big Box,Mountain Adventures,Mountain Adventures,
+Specialty Retailers,SPARSE,,,StoreData,StoreData,N,,,+,,AllCustomers,,,
+SR100,SPARSE,,,StoreData,StoreData,N,,,+,,Specialty Retailers,Bobs Bikes,Bobs Bikes,
+SR200,SPARSE,,,StoreData,StoreData,N,,,+,,Specialty Retailers,Rose Town Bikes,Rose Town Bikes,
+SR300,SPARSE,,,StoreData,StoreData,N,,,+,,Specialty Retailers,The Cyclery,The Cyclery,
+Webstore,SPARSE,,,StoreData,StoreData,N,,,+,,AllCustomers,,,

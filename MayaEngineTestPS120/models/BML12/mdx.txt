@@ -1,0 +1,24 @@
+SELECT 
+{[Input],[Allocation In],[Allocation Out],[Allocation Offset Amount]} on COLUMNS,
+NON EMPTY
+crossjoin({[%POV1%]},
+crossjoin({[%POV2%]},
+crossjoin({[%POV3%]},
+crossjoin(Descendants([Rule],10,LEAVES), 
+crossjoin({NoDriver},
+crossjoin(Descendants([Region],10,LEAVES),
+crossjoin({Products},
+crossjoin(Descendants([Customers],10,LEAVES),
+crossjoin(Descendants([Accounts],10,LEAVES),
+crossjoin(Descendants([Activities],10,LEAVES),Descendants([CostCenters],10,LEAVES))
+)
+)
+)
+)
+)
+)
+)
+)
+) 
+ON ROWS
+from [%APP%].[%CUBE%]

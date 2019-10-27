@@ -1,0 +1,16 @@
+{
+"POVDimensionCount":3,
+"POVArray":[
+ { "id": 1, "POV" : "2016:January:Actual" ,"Rules":"" },
+ { "id": 2, "POV" : "2016:February:Actual" ,"Rules":"" } ,
+ { "id": 3, "POV" : "2016:March:Actual" ,"Rules":"" } ,
+ { "id": 4, "POV" : "2016:April:Actual" ,"Rules":"" } ,
+ { "id": 5, "POV" : "2016:June:Actual" ,"Rules":"" } ,
+ { "id": 7, "POV" : "2016:August:Actual" ,"Rules":"" } ,
+ { "id": 8, "POV" : "2016:September:Actual" ,"Rules":"" } ,
+ { "id": 9, "POV" : "2016:October:Actual" ,"Rules":"" } ,
+ { "id": 10, "POV" : "2016:May:Actual" ,"Rules":"" } ,
+ { "id": 11, "POV" : "2016:November:Actual" ,"Rules":"" } ,
+ { "id": 12, "POV" : "2016:December:Actual" ,"Rules":"" } 
+ ]
+ }

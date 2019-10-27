@@ -1,0 +1,5 @@
+Rule Destination;Ruleset1;MyAllocRule; ;Enabled;Dimension Account has invalid member [NetIncome].[Income From Operations].[Gross Profit].[Net Revenue].[INC1000].
+Rule Offset;Ruleset1;MyAllocRule; ;Enabled;Dimension Account has invalid member [NetIncome].[Income From Operations].[Gross Profit].[Net Revenue].[INC1000].
+Rule Source;Ruleset1;MyAllocRule; ;Enabled;Dimension Account has invalid member [NetIncome].[Income From Operations].[Gross Profit].[Net Revenue].[INC1000].
+Rule Driver Basis;Ruleset1;MyAllocRule; ;Enabled;Dimension Account has invalid member [NetIncome].[Income From Operations].[Gross Profit].[Net Revenue].[INC1000].
+Rule Target;Ruleset1;MyCustomRule; ;Enabled;Unknown Member [Account].[NetIncome].[Income From Operations].[Gross Profit].[Net Revenue].[INC1000] used in query

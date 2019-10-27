@@ -1,0 +1,10 @@
+POV1,STORAGE TYPE,HIERARCHY TYPE,COMMENT,ASO DATA STORAGE,BSO DATA STORAGE,TWO PASS CALCULATION,ASO DIMENSION FORMULA,BSO DIMENSION FORMULA,CONSOLIDATION TYPE,UDA,PARENT,ALIAS:Default,ALIAS:English
+Year,SPARSE,STORED,,STOREDATA,LABELONLY,N,,,,,,ALIAS:Default,ALIAS:English
+2009,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+2010,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+2011,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+2012,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+2013,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+2014,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+2015,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+2016,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,

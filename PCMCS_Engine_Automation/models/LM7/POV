@@ -1,0 +1,9 @@
+{
+"POVDimensionCount":3,
+"POVArray":[
+ { "id": 1, "POV" : "2017:January:Actual" ,"Rules":"" },
+ { "id": 2, "POV" : "2017:February:Actual" ,"Rules":"" },
+ { "id": 3, "POV" : "2017:March:Actual" ,"Rules":"" },
+ { "id": 4, "POV" : "2017:April:Actual" ,"Rules":"" }
+ ]
+ }

@@ -1,0 +1,13 @@
+Regular,STORAGE TYPE,HIERARCHY TYPE,COMMENT,ASO DATA STORAGE,BSO DATA STORAGE,TWO PASS CALCULATION,ASO DIMENSION FORMULA,BSO DIMENSION FORMULA,CONSOLIDATION TYPE,UDA,PARENT,ALIAS:Default,ALIAS:English
+Products,SPARSE,STORED,,STOREDATA,LABELONLY,N,,,,,,ALIAS:Default,ALIAS:English
+NoProduct,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,No Product,No Product,
+AllProducts,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,All Products,All Products,
+Bikes,SPARSE,,,StoreData,StoreData,N,,,+,,AllProducts,,,
+B1001,SPARSE,,,StoreData,StoreData,N,,,+,,Bikes,Standard Cruiser,Standard Cruiser,
+B1002,SPARSE,,,StoreData,StoreData,N,,,+,,Bikes,Custom Cruiser,Custom Cruiser,
+B1003,SPARSE,,,StoreData,StoreData,N,,,+,"Special Finishing",Bikes,Limited Edition Beach Cruiser,Limited Edition Beach Cruiser,
+B1004,SPARSE,,,StoreData,StoreData,N,,,+,"Tubing Fabrication",Bikes,Bike Trailer,Bike Trailer,
+Accessories,SPARSE,,,StoreData,StoreData,N,,,+,,AllProducts,,,
+A1001,SPARSE,,,StoreData,StoreData,N,,,+,"Tubing Fabrication",Accessories,High Bar,High Bar,
+A1002,SPARSE,,,StoreData,StoreData,N,,,+,"Tubing Fabrication",Accessories,Low Bar,Low Bar,
+A1003,SPARSE,,,StoreData,StoreData,N,,,+,"Special Finishing",Accessories,Logo Seat,Logo Seat,

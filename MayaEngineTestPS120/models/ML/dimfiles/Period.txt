@@ -1,0 +1,14 @@
+POV2,STORAGE TYPE,HIERARCHY TYPE,COMMENT,ASO DATA STORAGE,BSO DATA STORAGE,TWO PASS CALCULATION,ASO DIMENSION FORMULA,BSO DIMENSION FORMULA,CONSOLIDATION TYPE,UDA,PARENT,ALIAS:Default,ALIAS:English
+Period,SPARSE,STORED,,STOREDATA,LABELONLY,N,,,,,,ALIAS:Default,ALIAS:English
+January,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+February,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+March,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+April,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+May,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+June,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+July,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+August,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+September,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+October,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+November,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,
+December,SPARSE,Disabled,,StoreData,StoreData,N,,,+,,,,,

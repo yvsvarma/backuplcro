@@ -1,0 +1,20 @@
+{
+"POV1":[
+	{"stageNum":1,
+		"stageName":"Ledger Data",
+		"directInput":368867.0,
+		"totalInput":368867.0,
+		"stageValues":{"3":185419.1,"2":163759.40000000002,"5":null,"4":null},
+		"totalOut":349178.5,
+		"idle":23327.6,
+		"unassigned":0.0,
+		"overdriven":3639.1,
+		"id":0,
+		"state":2
+	},
+	{"stageNum":2,"stageName":"Activity","assignedInput":163759.4,"totalInput":163759.4,"stageValues":{"3":106134.51166560373,"5":null,"4":57624.88833439628},"totalOut":163759.40000000002,"unassigned":-2.9103830456733704E-11,"id":0,"state":2},
+	{"stageNum":3,"stageName":"Product","assignedInput":291553.6116656037,"totalInput":291553.6116656037,"stageValues":{"5":291553.6116656037,"4":null},"totalOut":291553.6116656037,"unassigned":0.0,"id":0,"state":2},
+	{"stageNum":4,"stageName":"Customer","assignedInput":57624.88833439628,"totalInput":57624.88833439628,"stageValues":{"5":57624.88833439627},"totalOut":57624.88833439627,"unassigned":0.0,"id":0,"state":2},
+	{"stageNum":5,"stageName":"Sales Detail","assignedInput":349178.5,"totalInput":349178.5,"stageValues":{},"totalOut":0.0,"unassigned":349178.5,"id":0,"state":2}
+]
+}

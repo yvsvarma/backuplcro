@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DimManagementTestingSuite" time-out="7200000">
+    <listeners>
+      
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+    </listeners>
+    <test name="DeleteMemberValidations">
+        <classes>
+            <class name="tests.ModelValTestSuiteDeleted"/>
+        </classes>
+    </test>
+    <test name="RenameMemberValidations">
+        <classes>
+            <class name="tests.ModelValTestSuiteRenamed"/>
+        </classes>
+        </test>
+    </suite>
+

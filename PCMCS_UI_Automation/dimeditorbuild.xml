@@ -1,0 +1,75 @@
+<project name="TestNGTest" default="testng-execution" basedir=".">
+
+   <!-- Define <testng> task -->
+
+   <taskdef name="testng" classname="org.testng.TestNGAntTask">
+      <classpath>
+         <pathelement location="lib/testng-6.9.10.jar"/>
+      </classpath>
+   </taskdef>
+
+   <property name="builddir" location="build" />
+	 <property name="reportdir" location="test-output" />
+   <property name="srcdir" location="src" />
+	<property name="srcdir2" location="../PCMCSRest/src" />
+	<property name="srcdir3" location="../TestAutomationUtils/src" />
+	<property name="libdir" location="lib" />
+	<property name="libdir2" location="../PCMCSRest/lib" />
+	<property name="libdir3" location="../TestAutomationUtils/lib" />
+	<property name="libdir4" location="../libraries/extentreports-java-2.41.2/lib" /><property name="full-compile" value="true" />
+   
+   <path id="classpath.base"/>
+   <path id="classpath.build">
+   
+   <fileset dir="${libdir}">
+      <include name="**/*.jar" />
+   </fileset>
+   	<fileset dir="${libdir2}">
+   	      <include name="**/*.jar" />
+   	   </fileset>
+   	<fileset dir="${libdir3}">
+   	      <include name="**/*.jar" />
+   	   </fileset>
+   	<fileset dir="${libdir4}">
+   	      <include name="**/*.jar" />
+   	   </fileset>
+   <pathelement location="${builddir}" />
+   <pathelement location="${srcdir}" />
+   	<pathelement location="${srcdir2}" />
+   	<pathelement location="${srcdir3}" />
+   <path refid="classpath.base" />
+   </path>
+   
+   <target name="clean" >
+      <delete  failonerror="false">
+         <fileset dir="${builddir}" includes="**/*.class,*.jar" erroronmissingdir="false"/>
+      </delete>
+   	<delete includeemptydirs="true" failonerror="false">
+   	    <fileset dir="${reportdir}" includes="**/*" erroronmissingdir="false"/>
+   	 </delete>
+	<mkdir dir="${builddir}"/>
+   </target>
+   
+	 <target name="compile" depends="clean">
+		   	<mkdir dir="${builddir}"/>
+		      <javac destdir="${builddir}" >
+		      	<src path="${srcdir}"/>
+		      	<src path="${srcdir2}"/>
+		      	<src path="${srcdir3}"/>
+		         <classpath refid="classpath.build"/>
+		      </javac>
+	</target>
+   
+
+	<target name="jar" depends = "compile">
+	        <jar destfile="build/TestCases.jar" basedir="build">
+	        </jar>
+	</target>
+	<target name="testng-execution" depends="jar">
+		
+		<testng listeners="org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter"  classpathref="classpath.build" useDefaultListeners="false">
+			<xmlfileset dir="${basedir}" includes="DimensionEditorTestNG.xml" />
+		</testng>
+	</target>
+ 
+</project>

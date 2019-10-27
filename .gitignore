@@ -1,0 +1,31 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.tar.gz
+*.rar
+*.db
+*.exe
+*.classpath
+*.project
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/PCMCS_Rest_Automation/RestAutomation/nbproject/private/
+/PCMCS_Rest_Automation/RestAutomation/build/
+/PCMCS_EPMAutomate/target/
+/TestAutomationUtils/target/
+/PCMCS_Rest_Automation/target/
+/PCMCS_Migration/target/
+/PCMCS_UI_Automation/target/

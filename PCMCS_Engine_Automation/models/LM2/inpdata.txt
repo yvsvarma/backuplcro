@@ -1,0 +1,21 @@
+"2014" "January" "Actual" "A13" "B11" "C13" "D11" NoRule "Input" 10000
+"2014" "January" "Actual" "A14" "B11" "C14" "D11" NoRule "Input" 20000
+"2014" "January" "Actual" "A13" "B11" "C14" "D11" NoRule "Input" 30000
+"2014" "January" "Actual" "A14" "B11" "C13" "D11" NoRule "Input" 60000
+"2014" "January" "Actual" "A23" "B12" "C13" "D11" NoRule "Input" 10000
+"2014" "January" "Actual" "A11" "B12" "C13" "D11" NoRule "Input" 20000
+"2014" "January" "Actual" "A23" "B12" "C14" "D11" NoRule "Input" 30000
+"2014" "January" "Actual" "A11" "B12" "C14" "D11" NoRule "Input" 60000
+"2014" "January" "Actual" "A11" "B13" "C11" "D11" NoRule "Input" 30000
+"2014" "January" "Actual" "A12" "B13" "C11" "D11" NoRule "Input" 60000
+"2014" "January" "Actual" "A11" "B22" "C13" "D41" NoRule "Input" 30000
+"2014" "January" "Actual" "A12" "B22" "C13" "D41" NoRule "Input" 60000
+"2014" "January" "Actual" "A12" "B21" "C14" "D41" NoRule "Input" 60000
+"2014" "January" "Actual" "A23" "B21" "C14" "D41" NoRule "Input" 40000
+"2014" "January" "Actual" "A22" "B21" "C14" "D41" NoRule "Input" 70000
+"2014" "January" "Actual" "A13" "B13" "C22" "D42" NoRule "Input" 40000
+"2014" "January" "Actual" "A22" "B13" "C22" "D42" NoRule "Input" 40000
+"2014" "January" "Actual" "A12" "B22" "C12" "D21" NoRule "Input" 70000
+"2014" "January" "Actual" "A22" "B22" "C12" "D21" NoRule "Input" 60000
+"2014" "January" "Actual" "A23" "B22" "C12" "D21" NoRule "Input" 40000
+

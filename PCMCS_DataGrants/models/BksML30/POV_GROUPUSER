@@ -1,0 +1,12 @@
+{
+"POVDimensionCount":3,
+"POVArray":[
+ { "id": 1, "dataPOV" : "2016_January_Actual" ,"dgName":"DG1","modelPOV" : "2016_January_Actual" },
+ { "id": 2, "dataPOV" : "2016_February_Actual" ,"dgName":"DG2","modelPOV" : "2016_February_Actual" } ,
+ { "id": 3, "dataPOV" : "2016_March_Actual" ,"dgName":"DG3","modelPOV" : "2016_March_Actual" } ,
+ { "id": 4, "dataPOV" : "2016_April_Actual" ,"dgName":"DG4","modelPOV" : "2016_April_Actual" } ,
+ { "id": 5, "dataPOV" : "2016_May_Actual" ,"dgName":"DG5","modelPOV" : "2016_May_Actual"} ,
+ { "id": 6, "dataPOV" : "2016_June_Actual" ,"dgName":"DG6","modelPOV" : "2016_June_Actual"} 
+
+ ]
+ }

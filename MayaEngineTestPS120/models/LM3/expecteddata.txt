@@ -1,0 +1,15 @@
+
+(2013,Actual,January,NoRule,A11,B11,C11,D11,F11,E11,G11)	10000.0	10000.0	#Missing	#Missing	#Missing	
+(2013,Actual,January,NoRule,A11,B11,C11,D13,F11,E11,G11)	5.0	5.0	#Missing	#Missing	#Missing	
+(2013,Actual,January,NoRule,A11,B12,C11,D13,F11,E11,G11)	5.0	5.0	#Missing	#Missing	#Missing	
+(2013,Actual,January,NoRule,A12,B11,C11,D11,F11,E11,G11)	5000.0	5000.0	#Missing	#Missing	#Missing	
+(2013,Actual,January,NoRule,A12,B11,C11,D13,F11,E11,G11)	6.0	6.0	#Missing	#Missing	#Missing	
+(2013,Actual,January,NoRule,A12,B12,C11,D13,F11,E11,G11)	2.0	2.0	#Missing	#Missing	#Missing	
+(2013,Actual,January,NoRule,A12,B13,C11,D13,F11,E11,G11)	2.0	2.0	#Missing	#Missing	#Missing	
+(2013,Actual,January,R0001,A11,B11,C11,D11,F11,E11,G11)	-17793.5	#Missing	#Missing	-17793.5	#Missing	
+(2013,Actual,January,R0001,A12,B11,C11,D11,F11,E11,G11)	10676.1	#Missing	10676.1	#Missing	#Missing	
+(2013,Actual,January,R0001,A12,B12,C11,D11,F11,E11,G11)	3558.7	#Missing	3558.7	#Missing	#Missing	
+(2013,Actual,January,R0001,A12,B13,C11,D11,F11,E11,G11)	3558.7	#Missing	3558.7	#Missing	#Missing	
+(2013,Actual,January,R0002,A11,B11,C11,D11,F11,E11,G11)	7838.05	#Missing	7838.05	#Missing	#Missing	
+(2013,Actual,January,R0002,A11,B12,C11,D11,F11,E11,G11)	7838.05	#Missing	7838.05	#Missing	#Missing	
+(2013,Actual,January,R0002,A12,B11,C11,D11,F11,E11,G11)	-15676.1	#Missing	#Missing	-15676.1	#Missing	

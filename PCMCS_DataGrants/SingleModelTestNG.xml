@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DGTesting" >
+<listeners>
+      <listener class-name="org.testng.reporters.EmailableReporter2"/>
+      <listener class-name="org.testng.reporters.XMLReporter"/>
+ </listeners>
+   <test name="Pre-setup with Admin user">
+ 	     <parameter name="user" value="epm_default_cloud_admin" />
+		 <parameter name="password" value="password1" />
+	 <classes>
+	 
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+		<methods>
+           <include name="deleteExistingApp" />
+			<include name="login" />
+           <include name="lcmImport" />
+
+		</methods>
+		
+	  
+      </class>
+     </classes>
+	</test>
+<!--
+	 <test name="Check PCMCSUSER Access">
+ 	     <parameter name="user" value="PCMCSUSER" />
+		 <parameter name="password" value="test@123" />
+	 <classes>
+	 
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+		<methods>
+            <include name="checkReadAccess" />
+            <include name="attemptDataLoad" />
+            <include name="checkWriteAccess" />
+           
+        </methods>
+	  
+      </class>
+     </classes>
+	</test>
+	
+	
+	
+	
+	
+	 <test name="Check DGVIEWER Access">
+ 	     <parameter name="user" value="DGVIEWER" />
+		 <parameter name="password" value="test@123" />
+	 <classes>
+	 
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+		<methods>
+            <include name="checkReadAccess" />
+            <include name="attemptDataLoad" />
+            <include name="checkWriteAccess" />
+           
+        </methods>
+	  
+      </class>
+     </classes>
+	</test>
+	
+	-->
+	
+	 <test name="Check GROUPUSER Access">
+ 	     <parameter name="user" value="GROUPUSER" />
+		 <parameter name="password" value="test@123" />
+	 <classes>
+	 
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+		<methods>
+            <include name="checkReadAccess" />
+            <include name="attemptDataLoad" />
+            <include name="checkWriteAccess" />
+
+            
+        </methods>
+	  
+      </class>
+     </classes>
+	</test>
+	
+	
+	
+</suite>

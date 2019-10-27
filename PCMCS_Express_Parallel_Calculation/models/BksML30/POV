@@ -1,0 +1,17 @@
+{
+"POVDimensionCount":3,
+"POVArray":[
+ { "id": 1, "dataPOV" : "2016_January_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual" },
+ { "id": 2, "dataPOV" : "2016_February_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual" } ,
+ { "id": 3, "dataPOV" : "2016_March_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual" } ,
+ { "id": 4, "dataPOV" : "2016_April_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual" } ,
+ { "id": 5, "dataPOV" : "2016_May_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual"} ,
+ { "id": 6, "dataPOV" : "2016_June_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual" } ,
+  { "id": 7, "dataPOV" : "2016_July_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual" },
+ { "id": 8, "dataPOV" : "2016_August_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual"} ,
+ { "id": 9, "dataPOV" : "2016_September_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual"} ,
+ { "id": 10, "dataPOV" : "2016_October_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual" } ,
+ { "id": 11, "dataPOV" : "2016_November_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual"} ,
+ { "id": 12, "dataPOV" : "2016_December_Actual" ,"Rules":"","modelPOV" : "2016_January_Actual"}
+ ]
+ }

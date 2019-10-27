@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[OS : windows 10]]>
+    </line>
+    <line>
+      <![CDATA[Executing cmd.exe /C epmautomate login epm_default_cloud_admin Hyperion1 http://slc05fbp.us.oracle.com:9000]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Return Value : 0]]>
+    </line>
+    <line>
+      <![CDATA[OS : windows 10]]>
+    </line>
+    <line>
+      <![CDATA[Executing cmd.exe /C epmautomate deletefile BksML30_DTE]]>
+    </line>
+    <line>
+      <![CDATA[Processing...]]>
+    </line>
+    <line>
+      <![CDATA[Retrieving status...]]>
+    </line>
+    <line>
+      <![CDATA[deletefile completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Return Value : 0]]>
+    </line>
+    <line>
+      <![CDATA[OS : windows 10]]>
+    </line>
+    <line>
+      <![CDATA[Executing cmd.exe /C epmautomate uploadfile D:\LastMonth\PCMCS_DataGrants\.\models\snapshots\BksML30_DTE.zip]]>
+    </line>
+    <line>
+      <![CDATA[Processing...]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[95% completed]]>
+    </line>
+    <line>
+      <![CDATA[100% completed]]>
+    </line>
+    <line>
+      <![CDATA[uploadfile completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Return Value : 0]]>
+    </line>
+    <line>
+      <![CDATA[OS : windows 10]]>
+    </line>
+    <line>
+      <![CDATA[Executing cmd.exe /C epmautomate importsnapshot BksML30_DTE]]>
+    </line>
+    <line>
+      <![CDATA[Processing...]]>
+    </line>
+    <line>
+      <![CDATA[Retrieving status...]]>
+    </line>
+    <line>
+      <![CDATA[importsnapshot completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Return Value : 0]]>
+    </line>
+    <line>
+      <![CDATA[OS : windows 10]]>
+    </line>
+    <line>
+      <![CDATA[Executing cmd.exe /C epmautomate logout]]>
+    </line>
+    <line>
+      <![CDATA[logout completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Return Value : 0]]>
+    </line>
+  </reporter-output>
+  <suite name="DGTesting" duration-ms="279139" started-at="2019-08-09T11:49:41Z" finished-at="2019-08-09T11:54:21Z">
+    <groups>
+      <group name="ProcessRuleBalancing">
+        <method signature="EngineAutomationTestFixture.checkReadAccess(java.lang.String, java.lang.String)[pri:6, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@4c203ea1]" name="checkReadAccess" class="com.oracle.hpcm.tests.EngineAutomationTestFixture"/>
+        <method signature="EngineAutomationTestFixture.checkReadAccess(java.lang.String, java.lang.String)[pri:6, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@49e4cb85]" name="checkReadAccess" class="com.oracle.hpcm.tests.EngineAutomationTestFixture"/>
+        <method signature="EngineAutomationTestFixture.checkReadAccess(java.lang.String, java.lang.String)[pri:6, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@3b6eb2ec]" name="checkReadAccess" class="com.oracle.hpcm.tests.EngineAutomationTestFixture"/>
+      </group> <!-- ProcessRuleBalancing -->
+    </groups>
+    <test name="Pre-setup with Admin user" duration-ms="240072" started-at="2019-08-09T11:49:41Z" finished-at="2019-08-09T11:53:41Z">
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2]" name="setUp" is-config="true" duration-ms="67" started-at="2019-08-09T17:19:41Z" finished-at="2019-08-09T17:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteExistingApp()[pri:1, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2]" name="deleteExistingApp" duration-ms="15573" started-at="2019-08-09T17:19:41Z" finished-at="2019-08-09T17:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExistingApp -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-09T17:19:57Z" finished-at="2019-08-09T17:19:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteExistingApp status=SUCCESS method=EngineAutomationTestFixture.deleteExistingApp()[pri:1, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2]" name="login" duration-ms="3369" started-at="2019-08-09T17:19:57Z" finished-at="2019-08-09T17:20:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OS : windows 10]]>
+            </line>
+            <line>
+              <![CDATA[Executing cmd.exe /C epmautomate login epm_default_cloud_admin Hyperion1 http://slc05fbp.us.oracle.com:9000]]>
+            </line>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Return Value : 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-09T17:20:00Z" finished-at="2019-08-09T17:20:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=EngineAutomationTestFixture.login()[pri:2, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2] output=OS : windows 10]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="lcmImport()[pri:3, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2]" name="lcmImport" duration-ms="221034" started-at="2019-08-09T17:20:00Z" finished-at="2019-08-09T17:23:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OS : windows 10]]>
+            </line>
+            <line>
+              <![CDATA[Executing cmd.exe /C epmautomate deletefile BksML30_DTE]]>
+            </line>
+            <line>
+              <![CDATA[Processing...]]>
+            </line>
+            <line>
+              <![CDATA[Retrieving status...]]>
+            </line>
+            <line>
+              <![CDATA[deletefile completed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Return Value : 0]]>
+            </line>
+            <line>
+              <![CDATA[OS : windows 10]]>
+            </line>
+            <line>
+              <![CDATA[Executing cmd.exe /C epmautomate uploadfile D:\LastMonth\PCMCS_DataGrants\.\models\snapshots\BksML30_DTE.zip]]>
+            </line>
+            <line>
+              <![CDATA[Processing...]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[95% completed]]>
+            </line>
+            <line>
+              <![CDATA[100% completed]]>
+            </line>
+            <line>
+              <![CDATA[uploadfile completed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Return Value : 0]]>
+            </line>
+            <line>
+              <![CDATA[OS : windows 10]]>
+            </line>
+            <line>
+              <![CDATA[Executing cmd.exe /C epmautomate importsnapshot BksML30_DTE]]>
+            </line>
+            <line>
+              <![CDATA[Processing...]]>
+            </line>
+            <line>
+              <![CDATA[Retrieving status...]]>
+            </line>
+            <line>
+              <![CDATA[importsnapshot completed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Return Value : 0]]>
+            </line>
+            <line>
+              <![CDATA[OS : windows 10]]>
+            </line>
+            <line>
+              <![CDATA[Executing cmd.exe /C epmautomate logout]]>
+            </line>
+            <line>
+              <![CDATA[logout completed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Return Value : 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lcmImport -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-09T17:23:41Z" finished-at="2019-08-09T17:23:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lcmImport status=SUCCESS method=EngineAutomationTestFixture.lcmImport()[pri:3, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@6debcae2] output=OS : windows 10]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.oracle.hpcm.tests.EngineAutomationTestFixture -->
+    </test> <!-- Pre-setup with Admin user -->
+    <test name="Check PCMCSUSER Access" duration-ms="13451" started-at="2019-08-09T11:53:42Z" finished-at="2019-08-09T11:53:55Z">
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@4c203ea1]" name="setUp" is-config="true" duration-ms="11" started-at="2019-08-09T17:23:42Z" finished-at="2019-08-09T17:23:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkReadAccess(java.lang.String, java.lang.String)[pri:6, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@4c203ea1]" name="checkReadAccess" duration-ms="13436" started-at="2019-08-09T17:23:42Z" description="Target Webservice = ProcessRuleBalancing, assert that ML rule balancing is returned." finished-at="2019-08-09T17:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PCMCSUSER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkReadAccess -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@4c203ea1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-09T17:23:55Z" finished-at="2019-08-09T17:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkReadAccess status=SUCCESS method=EngineAutomationTestFixture.checkReadAccess(java.lang.String, java.lang.String)[pri:6, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@4c203ea1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.oracle.hpcm.tests.EngineAutomationTestFixture -->
+    </test> <!-- Check PCMCSUSER Access -->
+    <test name="Check DGVIEWER Access" duration-ms="13249" started-at="2019-08-09T11:53:55Z" finished-at="2019-08-09T11:54:08Z">
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@49e4cb85]" name="setUp" is-config="true" duration-ms="15" started-at="2019-08-09T17:23:55Z" finished-at="2019-08-09T17:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkReadAccess(java.lang.String, java.lang.String)[pri:6, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@49e4cb85]" name="checkReadAccess" duration-ms="13232" started-at="2019-08-09T17:23:55Z" description="Target Webservice = ProcessRuleBalancing, assert that ML rule balancing is returned." finished-at="2019-08-09T17:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DGVIEWER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkReadAccess -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@49e4cb85]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-09T17:24:08Z" finished-at="2019-08-09T17:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkReadAccess status=SUCCESS method=EngineAutomationTestFixture.checkReadAccess(java.lang.String, java.lang.String)[pri:6, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@49e4cb85] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.oracle.hpcm.tests.EngineAutomationTestFixture -->
+    </test> <!-- Check DGVIEWER Access -->
+    <test name="Check GROUPUSER Access" duration-ms="12288" started-at="2019-08-09T11:54:08Z" finished-at="2019-08-09T11:54:21Z">
+      <class name="com.oracle.hpcm.tests.EngineAutomationTestFixture">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@3b6eb2ec]" name="setUp" is-config="true" duration-ms="6" started-at="2019-08-09T17:24:08Z" finished-at="2019-08-09T17:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkReadAccess(java.lang.String, java.lang.String)[pri:6, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@3b6eb2ec]" name="checkReadAccess" duration-ms="12281" started-at="2019-08-09T17:24:08Z" description="Target Webservice = ProcessRuleBalancing, assert that ML rule balancing is returned." finished-at="2019-08-09T17:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GROUPUSER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkReadAccess -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@3b6eb2ec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-09T17:24:21Z" finished-at="2019-08-09T17:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkReadAccess status=SUCCESS method=EngineAutomationTestFixture.checkReadAccess(java.lang.String, java.lang.String)[pri:6, instance:com.oracle.hpcm.tests.EngineAutomationTestFixture@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.oracle.hpcm.tests.EngineAutomationTestFixture -->
+    </test> <!-- Check GROUPUSER Access -->
+  </suite> <!-- DGTesting -->
+</testng-results>
